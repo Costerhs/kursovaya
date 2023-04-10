@@ -294,7 +294,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         const postData = (body) => {
 
-            return fetch('./server.php', {
+            return fetch('https://6257e3c10c918296a48cf691.mockapi.io/lost', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
