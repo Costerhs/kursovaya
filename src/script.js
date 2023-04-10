@@ -219,7 +219,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // send form
     const sendForm = () => {
 
-        const errorMessage = 'Ошибка...',
+        const errorMessage = '...',
             loadMessage = 'Идет отправка...',
             successMessage = 'Отправлено!';
 
